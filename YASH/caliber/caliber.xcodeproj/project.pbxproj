@@ -1,0 +1,542 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		61640E871CF44F1900F75181 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 61640E861CF44F1900F75181 /* main.m */; };
+		61640E8A1CF44F1900F75181 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 61640E891CF44F1900F75181 /* AppDelegate.m */; };
+		61640E8D1CF44F1900F75181 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61640E8C1CF44F1900F75181 /* ViewController.m */; };
+		61640E901CF44F1900F75181 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61640E8E1CF44F1900F75181 /* Main.storyboard */; };
+		61640E931CF44F1900F75181 /* caliber.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 61640E911CF44F1900F75181 /* caliber.xcdatamodeld */; };
+		61640E951CF44F1900F75181 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61640E941CF44F1900F75181 /* Assets.xcassets */; };
+		61640E981CF44F1900F75181 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61640E961CF44F1900F75181 /* LaunchScreen.storyboard */; };
+		61640EA31CF44F1900F75181 /* caliberTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 61640EA21CF44F1900F75181 /* caliberTests.m */; };
+		61640EAE1CF44F1900F75181 /* caliberUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 61640EAD1CF44F1900F75181 /* caliberUITests.m */; };
+		61640EBD1CF4505B00F75181 /* theone.m in Sources */ = {isa = PBXBuildFile; fileRef = 61640EBC1CF4505B00F75181 /* theone.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		61640E9F1CF44F1900F75181 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 61640E7A1CF44F1900F75181 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 61640E811CF44F1900F75181;
+			remoteInfo = caliber;
+		};
+		61640EAA1CF44F1900F75181 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 61640E7A1CF44F1900F75181 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 61640E811CF44F1900F75181;
+			remoteInfo = caliber;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		61640E821CF44F1900F75181 /* caliber.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = caliber.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		61640E861CF44F1900F75181 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		61640E881CF44F1900F75181 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		61640E891CF44F1900F75181 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		61640E8B1CF44F1900F75181 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		61640E8C1CF44F1900F75181 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		61640E8F1CF44F1900F75181 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		61640E921CF44F1900F75181 /* caliber.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = caliber.xcdatamodel; sourceTree = "<group>"; };
+		61640E941CF44F1900F75181 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		61640E971CF44F1900F75181 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		61640E991CF44F1900F75181 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61640E9E1CF44F1900F75181 /* caliberTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = caliberTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		61640EA21CF44F1900F75181 /* caliberTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = caliberTests.m; sourceTree = "<group>"; };
+		61640EA41CF44F1900F75181 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61640EA91CF44F1900F75181 /* caliberUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = caliberUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		61640EAD1CF44F1900F75181 /* caliberUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = caliberUITests.m; sourceTree = "<group>"; };
+		61640EAF1CF44F1900F75181 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61640EBB1CF4505B00F75181 /* theone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = theone.h; sourceTree = "<group>"; };
+		61640EBC1CF4505B00F75181 /* theone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = theone.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		61640E7F1CF44F1900F75181 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61640E9B1CF44F1900F75181 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61640EA61CF44F1900F75181 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		61640E791CF44F1900F75181 = {
+			isa = PBXGroup;
+			children = (
+				61640E841CF44F1900F75181 /* caliber */,
+				61640EA11CF44F1900F75181 /* caliberTests */,
+				61640EAC1CF44F1900F75181 /* caliberUITests */,
+				61640E831CF44F1900F75181 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		61640E831CF44F1900F75181 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				61640E821CF44F1900F75181 /* caliber.app */,
+				61640E9E1CF44F1900F75181 /* caliberTests.xctest */,
+				61640EA91CF44F1900F75181 /* caliberUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		61640E841CF44F1900F75181 /* caliber */ = {
+			isa = PBXGroup;
+			children = (
+				61640E881CF44F1900F75181 /* AppDelegate.h */,
+				61640E891CF44F1900F75181 /* AppDelegate.m */,
+				61640E8B1CF44F1900F75181 /* ViewController.h */,
+				61640E8C1CF44F1900F75181 /* ViewController.m */,
+				61640EBB1CF4505B00F75181 /* theone.h */,
+				61640EBC1CF4505B00F75181 /* theone.m */,
+				61640E8E1CF44F1900F75181 /* Main.storyboard */,
+				61640E941CF44F1900F75181 /* Assets.xcassets */,
+				61640E961CF44F1900F75181 /* LaunchScreen.storyboard */,
+				61640E991CF44F1900F75181 /* Info.plist */,
+				61640E911CF44F1900F75181 /* caliber.xcdatamodeld */,
+				61640E851CF44F1900F75181 /* Supporting Files */,
+			);
+			path = caliber;
+			sourceTree = "<group>";
+		};
+		61640E851CF44F1900F75181 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				61640E861CF44F1900F75181 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		61640EA11CF44F1900F75181 /* caliberTests */ = {
+			isa = PBXGroup;
+			children = (
+				61640EA21CF44F1900F75181 /* caliberTests.m */,
+				61640EA41CF44F1900F75181 /* Info.plist */,
+			);
+			path = caliberTests;
+			sourceTree = "<group>";
+		};
+		61640EAC1CF44F1900F75181 /* caliberUITests */ = {
+			isa = PBXGroup;
+			children = (
+				61640EAD1CF44F1900F75181 /* caliberUITests.m */,
+				61640EAF1CF44F1900F75181 /* Info.plist */,
+			);
+			path = caliberUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		61640E811CF44F1900F75181 /* caliber */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61640EB21CF44F1900F75181 /* Build configuration list for PBXNativeTarget "caliber" */;
+			buildPhases = (
+				61640E7E1CF44F1900F75181 /* Sources */,
+				61640E7F1CF44F1900F75181 /* Frameworks */,
+				61640E801CF44F1900F75181 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = caliber;
+			productName = caliber;
+			productReference = 61640E821CF44F1900F75181 /* caliber.app */;
+			productType = "com.apple.product-type.application";
+		};
+		61640E9D1CF44F1900F75181 /* caliberTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61640EB51CF44F1900F75181 /* Build configuration list for PBXNativeTarget "caliberTests" */;
+			buildPhases = (
+				61640E9A1CF44F1900F75181 /* Sources */,
+				61640E9B1CF44F1900F75181 /* Frameworks */,
+				61640E9C1CF44F1900F75181 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				61640EA01CF44F1900F75181 /* PBXTargetDependency */,
+			);
+			name = caliberTests;
+			productName = caliberTests;
+			productReference = 61640E9E1CF44F1900F75181 /* caliberTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		61640EA81CF44F1900F75181 /* caliberUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61640EB81CF44F1900F75181 /* Build configuration list for PBXNativeTarget "caliberUITests" */;
+			buildPhases = (
+				61640EA51CF44F1900F75181 /* Sources */,
+				61640EA61CF44F1900F75181 /* Frameworks */,
+				61640EA71CF44F1900F75181 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				61640EAB1CF44F1900F75181 /* PBXTargetDependency */,
+			);
+			name = caliberUITests;
+			productName = caliberUITests;
+			productReference = 61640EA91CF44F1900F75181 /* caliberUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		61640E7A1CF44F1900F75181 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Tajuddin ";
+				TargetAttributes = {
+					61640E811CF44F1900F75181 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					61640E9D1CF44F1900F75181 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 61640E811CF44F1900F75181;
+					};
+					61640EA81CF44F1900F75181 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 61640E811CF44F1900F75181;
+					};
+				};
+			};
+			buildConfigurationList = 61640E7D1CF44F1900F75181 /* Build configuration list for PBXProject "caliber" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 61640E791CF44F1900F75181;
+			productRefGroup = 61640E831CF44F1900F75181 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				61640E811CF44F1900F75181 /* caliber */,
+				61640E9D1CF44F1900F75181 /* caliberTests */,
+				61640EA81CF44F1900F75181 /* caliberUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		61640E801CF44F1900F75181 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61640E981CF44F1900F75181 /* LaunchScreen.storyboard in Resources */,
+				61640E951CF44F1900F75181 /* Assets.xcassets in Resources */,
+				61640E901CF44F1900F75181 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61640E9C1CF44F1900F75181 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61640EA71CF44F1900F75181 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		61640E7E1CF44F1900F75181 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61640E8D1CF44F1900F75181 /* ViewController.m in Sources */,
+				61640E8A1CF44F1900F75181 /* AppDelegate.m in Sources */,
+				61640E931CF44F1900F75181 /* caliber.xcdatamodeld in Sources */,
+				61640EBD1CF4505B00F75181 /* theone.m in Sources */,
+				61640E871CF44F1900F75181 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61640E9A1CF44F1900F75181 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61640EA31CF44F1900F75181 /* caliberTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61640EA51CF44F1900F75181 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61640EAE1CF44F1900F75181 /* caliberUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		61640EA01CF44F1900F75181 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 61640E811CF44F1900F75181 /* caliber */;
+			targetProxy = 61640E9F1CF44F1900F75181 /* PBXContainerItemProxy */;
+		};
+		61640EAB1CF44F1900F75181 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 61640E811CF44F1900F75181 /* caliber */;
+			targetProxy = 61640EAA1CF44F1900F75181 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		61640E8E1CF44F1900F75181 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61640E8F1CF44F1900F75181 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		61640E961CF44F1900F75181 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61640E971CF44F1900F75181 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		61640EB01CF44F1900F75181 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		61640EB11CF44F1900F75181 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		61640EB31CF44F1900F75181 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = caliber/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = impc.caliber;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		61640EB41CF44F1900F75181 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = caliber/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = impc.caliber;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		61640EB61CF44F1900F75181 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = caliberTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = impc.caliberTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/caliber.app/caliber";
+			};
+			name = Debug;
+		};
+		61640EB71CF44F1900F75181 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = caliberTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = impc.caliberTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/caliber.app/caliber";
+			};
+			name = Release;
+		};
+		61640EB91CF44F1900F75181 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = caliberUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = impc.caliberUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = caliber;
+			};
+			name = Debug;
+		};
+		61640EBA1CF44F1900F75181 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = caliberUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = impc.caliberUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = caliber;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		61640E7D1CF44F1900F75181 /* Build configuration list for PBXProject "caliber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61640EB01CF44F1900F75181 /* Debug */,
+				61640EB11CF44F1900F75181 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61640EB21CF44F1900F75181 /* Build configuration list for PBXNativeTarget "caliber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61640EB31CF44F1900F75181 /* Debug */,
+				61640EB41CF44F1900F75181 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		61640EB51CF44F1900F75181 /* Build configuration list for PBXNativeTarget "caliberTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61640EB61CF44F1900F75181 /* Debug */,
+				61640EB71CF44F1900F75181 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		61640EB81CF44F1900F75181 /* Build configuration list for PBXNativeTarget "caliberUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61640EB91CF44F1900F75181 /* Debug */,
+				61640EBA1CF44F1900F75181 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		61640E911CF44F1900F75181 /* caliber.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				61640E921CF44F1900F75181 /* caliber.xcdatamodel */,
+			);
+			currentVersion = 61640E921CF44F1900F75181 /* caliber.xcdatamodel */;
+			path = caliber.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 61640E7A1CF44F1900F75181 /* Project object */;
+}
